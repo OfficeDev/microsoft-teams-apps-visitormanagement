@@ -1,53 +1,63 @@
 ---
 page_type: sample
-languages:
-- csharp
 products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
+- Power Apps
+- Power Automate
+- Microsoft Azure Logic Apps
+- SharePoint
+description: Power Apps solution that enables organizations to efficiently manage visitor requests through visitor dashboards and automation of workflows
+urlFragment: microsoft-teams-app-visitormanagement
 ---
 
-# Official Microsoft Sample
+# Visitor Management App Template
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+| [Documentation](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Solution-Overview) |
+| ---- | ---- | ---- |
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+Visitor Management is a custom app that enables organizations to efficiently manage visitor requests through visitor dashboards and automation of workflows. The app brings together the goodness of Microsoft Teams, Power Platform and SharePoint to modernize the visitor management process for an organization and enable easy creation of visitor requests, central tracking and real-time notifications.
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+## Key features
+* Employees can easily create visitor requests
+* Employees can easily track all their visitor requests through a dashboard
+* Employees receive notifications when their requests are confirmed by admin team (security or front desk operations team)
+* Admin team can view all visitors arriving in a day via central dashboard
+* Admin team can notify employees when visitors arrive on premises
 
-Give a short description for your sample here. What does it do and why is it important?
+Here are some of the workflows in action:
 
-## Contents
+1. An employee creates a request by submitting visitor details through the app
+	
+![Create request](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Images/CreateRequest.png)
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+2. The admin team is notified of the incoming request through a notification delivered via Power Automate in a dedicated channel
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+  ![Admin Notification](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Images/AdminNotification.png)
 
-## Prerequisites
+3. Once the visitor arrives on premises, the admin team can easily notify the host
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
+  ![Notify Host](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Images/NotifyHost.png)
+	
+  ![Host Notification](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Images/HostNotification.png)
+  
 
-## Setup
+## Legal notice
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+This app template is provided under the [MIT License](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/blob/master/LICENSE) terms.  In addition to these terms, by using this app template you agree to the following:
 
-## Running the sample
+-	You are responsible for complying with all applicable privacy and security regulations related to use, collection and handling of any personal data by your app.  This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization.
 
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
+-	Where applicable, you may be responsible for data related incidents or data subject requests for data collect through your app.
 
-## Key concepts
+-	Any trademarks or registered trademarks of Microsoft in the United States and/or other countries and logos included in this repository are the property of Microsoft, and the license for this project does not grant you rights to use any Microsoft names, logos or trademarks outside of this repository.  Microsoft’s general trademark guidelines can be found [here](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx).
 
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+-	Use of this template does not guarantee acceptance of your app to the Teams app store.  To make this app available in the Teams app store, you will have to comply with the [submission and validation process](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish), and all associated requirements such as including your own privacy statement and terms of use for your app.
+
+
+## Getting started
+
+Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Solution-overview) to read about what the app does and how it works.
+
+When you're ready to try out Visitor Management app, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-app-visitormanagement/wiki/Deployment-guide).
 
 ## Contributing
 
